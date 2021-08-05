@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".who_win">
+
+
+    <ImageView
+        android:id="@+id/versus"
+        android:layout_width="414dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="321dp"
+        app:srcCompat="@drawable/versus"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="121dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="383dp"
+        app:srcCompat="@drawable/uber_icon"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="176dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="554dp"
+        app:srcCompat="@drawable/ola_icon"
+        tools:ignore="RtlCompat" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="314dp"
+        android:background="@color/colorPrimaryDark"
+        android:outlineAmbientShadowColor="#000000"
+        android:outlineSpotShadowColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="383dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-23dp"
+        android:layout_marginBottom="257dp"
+        android:text="So Who Won The Fight?"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/uberbutton"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="192dp"
+        android:background="#FFFFFF"
+        android:text="uber"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/olabutton"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="109dp"
+        android:background="#FFFFFF"
+        android:text="ola"
+        android:textColor="#000000" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerad_2"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="22dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5925784703265272/2217048468">
+
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="163dp"
+        android:text="OR"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
